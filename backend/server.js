@@ -24,7 +24,7 @@ const PORT = process.env.PORT || 5000; //Change port on basis of production and 
 mongoose
   .connect(process.env.MONGO_URI)
   .then(() => {
-    app.listen(PORT, () => {f
+    app.listen(PORT, () => {
       console.log("Server Connected");
     });
   })
