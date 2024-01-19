@@ -12,7 +12,7 @@ const connectDB = async () => {
 };
 module.exports = connectDB; //export DB connection
 
-/////Using this function in server.js file to connect to server and database/////////////////////////////
+/////Use this function in server.js file to connect to server and database/////////////////////////////
 
 // const connectDB = require("./config/connectDB"); //Import db connection file    (also import it)
 
