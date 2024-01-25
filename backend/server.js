@@ -32,7 +32,7 @@ mongoose
   .connect(process.env.MONGO_URI)
   .then(() => {
     app.listen(PORT, () => {
-      console.log("DB Connected");
+      console.log(`DB Connected & server runing on port:${PORT}`);
     });
   })
   .catch((error) => console.log(error));
