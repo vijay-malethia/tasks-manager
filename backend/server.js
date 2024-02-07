@@ -11,7 +11,7 @@ const app = express();
 app.use(express.json()); //To access json data through request
 app.use(taskRoutes);
 
-//--------------------------------------------------Routes---------------------------
+//--------------------------------------------------Routes----------------------------
 
 //Routes ("/",inital route)
 app.get("/", (req, res) => {
